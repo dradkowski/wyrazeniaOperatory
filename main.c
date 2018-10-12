@@ -6,5 +6,8 @@ int main() {
 
     printf("%i\n", a++ + b);
     printf("%i\n", ++a + b);
+
+    printf("%i\n", --a + b);
+    printf("%i\n", a-- + b);
     return 0;
 }
